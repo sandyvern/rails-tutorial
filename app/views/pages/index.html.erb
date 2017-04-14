@@ -1,6 +1,10 @@
-<h1>Hello World App from MICHAEL HARTL's Ruby on Rails Tutorial.</h1>
-
-<div class="links">
-  <button><%= link_to 'Hello', hello_path %></button> |
-  <button><%= link_to 'Goodbye', goodbye_path %></button>
+<div class="jumbotron text-center">
+  <h1>Hello World App</h1>
+  <%= image_tag("globe-world.png", alt: "Globe View", size: "200x200") %>
+  <p>The first application from the <strong>Ruby on Rails Tutorial</strong> by <strong><em>Michael Hartl</em></strong></p>
+  
+  <div class="links">
+    <%= link_to 'Hello', hello_path, class: 'btn btn-primary' %>
+    <%= link_to 'Goodbye', goodbye_path, class: 'btn btn-success' %>
+  </div>
 </div>
