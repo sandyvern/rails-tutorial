@@ -17,6 +17,7 @@ by [Michael Hartl](http://www.michaelhartl.com/). Hello, world!
 * Added partials for navbar and footer with social links
 * Added images
 * Added a 2nd remote for Github
+* Added rails_12factor gem to production (This gem will configure your application to serve static assets so that you do not need to do this manually in a config file.)
 
 ### Notes for Using Multiple Remotes
 
