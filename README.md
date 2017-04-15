@@ -18,6 +18,7 @@ by [Michael Hartl](http://www.michaelhartl.com/). Hello, world!
 * Added images
 * Added a 2nd remote for Github
 * Added rails_12factor gem to production (This gem will configure your application to serve static assets so that you do not need to do this manually in a config file.)
+* Added configuration setting to production compile assets
 
 ### Notes for Using Multiple Remotes
 
