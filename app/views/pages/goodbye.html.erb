@@ -1,10 +1,21 @@
-<h1>Goodbye</h1>
-
-<h2>Goodbye, world!</h2>
-<h2>¡Adiós, mundo!</h2>
-<h2>Au revoir le monde!</h2>
-
-<div class="links">
-  <%= link_to 'Hello', hello_path %> | <%= link_to 'Home', root_path %>
+<div class="jumbotron goodbye">
+  <h1></h1>
 </div>
 
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="well text-center">
+      <h2>Goodbye, world!</h2>
+      <h2>¡Adiós, mundo!</h2>
+      <h2>Au revoir le monde!</h2>
+      <h2>Alavida duniya!</h2>
+      <h2>Addio mondo!</h2>
+      <h2>Auf Wiedersehen Welt!</h2>
+    </div>
+  </div>
+</div>
+
+
+<div class="text-center">
+  <%= link_to 'Hello', hello_path, class: 'btn btn-primary' %> | <%= link_to 'Home', root_path, class: 'btn btn-success' %>
+</div>
